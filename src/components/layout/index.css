@@ -1,0 +1,74 @@
+p {
+  line-height: 1.7em;
+}
+
+h3 {
+  font-weight: 100;
+}
+
+#___gatsby {
+  height: 100%
+}
+
+.sticky-header {
+  z-index: 1;
+  background: white;
+  width: 100%;
+  top: 0;
+  position: sticky;
+  border-bottom: rgba(34, 36, 38, .15) thin solid;
+}
+
+.ui.horizontal.segments.header {
+  margin: 0;
+  border: 0;
+  box-shadow: none;
+}
+
+.ui.horizontal.segments>.segment {
+  margin-top: 0;
+  border-left: 0;
+}
+
+.ui.segment.header-links {
+  font-size: 1.2 rem;
+}
+
+.footer {
+  width: 100%;
+  text-align: center;
+  padding: 20px 0 20px 0;
+  height: 80px;
+  background-color: #222222;
+
+}
+
+/* .showcase {
+  width: 100%;
+  max-height: 500px;
+} */
+
+.ui.header {
+  margin: 0;
+  font-weight: 100;
+}
+
+.ui.large.header {
+  margin-bottom: 25px;
+}
+
+.section {
+  padding: 40px 0 40px 0;
+}
+
+.section.even,
+.even {
+  background-color: #2EA3F2;
+  color: white !important
+}
+
+#map-container {
+  position: relative;
+  height: 200px;
+  width: 100%;
+}

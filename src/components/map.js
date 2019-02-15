@@ -4,18 +4,33 @@ import { Map, InfoWindow, Marker, GoogleApiWrapper } from 'google-maps-react'
 const mapStyles = {
   position: 'relative',
   width: '100%',
+  height: '100%',
 }
 
 export class MapContainer extends Component {
   render() {
     return (
       <div id="map-container">
-        <Map google={this.props.google} zoom={14} style={mapStyles}>
-          <Marker onClick={this.onMarkerClick} name={'Current location'} />
-
-          <InfoWindow onClose={this.onInfoWindowClose}>
+        <Map
+          google={this.props.google}
+          onClick={this.onMapClicked}
+          zoom={14}
+          style={mapStyles}
+          center={{
+            lat: 38.7449948,
+            lng: -121.307061,
+          }}
+        >
+          <Marker
+            title="Chirofit Roseville"
+            position={{
+              lat: 38.7449948,
+              lng: -121.307061,
+            }}
+          />
+          <InfoWindow visible={true}>
             <div>
-              <h1>Foo</h1>
+              <h1>Chirofit Roseville!</h1>
             </div>
           </InfoWindow>
         </Map>
@@ -24,6 +39,8 @@ export class MapContainer extends Component {
   }
 }
 
-export default GoogleApiWrapper({
+const MapRendered = GoogleApiWrapper({
   apiKey: 'AIzaSyAK-_6vLcEEhc7uPFD-ejwp8pQyD3mhV74',
 })(MapContainer)
+
+export default MapRendered

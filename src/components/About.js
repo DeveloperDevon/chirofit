@@ -1,6 +1,6 @@
 import React from 'react'
 import Layout from './layout'
-import { Header, Container, Image, Grid, Segment, Divider } from 'semantic-ui-react'
+import { Header, Container, Image, Grid, Segment } from 'semantic-ui-react'
 import room1 from '../images/room1.jpg'
 import room2 from '../images/room2.jpg'
 

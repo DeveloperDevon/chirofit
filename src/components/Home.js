@@ -97,14 +97,16 @@ const Home = () => (
           <Image className="selfie" src={josh} />
         </Responsive>
         <Responsive as={Grid.Column} {...Responsive.onlyComputer}>
-          <Header size="large">Our Promise To You</Header>
-          <Container>
-            Unlike conventional medicine, which focuses on attempting to treat disease once it occurs, the chiropractic care offered at ChiroFit Roseville in Roseville emphasizes the importance of improving your health in an effort to reduce the risk of pain and illness in the
-            first place. Given the option, most people would prefer to be healthy and avoid illness if possible, and chiropractic care can help those people achieve their health and wellness goals.
+          <Container textAlign="center" className="section">
+            <Header size="large">Our Promise To You</Header>
+            <Container>
+              Unlike conventional medicine, which focuses on attempting to treat disease once it occurs, the chiropractic care offered at ChiroFit Roseville in Roseville emphasizes the importance of improving your health in an effort to reduce the risk of pain and illness in the
+              first place. Given the option, most people would prefer to be healthy and avoid illness if possible, and chiropractic care can help those people achieve their health and wellness goals.
+            </Container>
+            <Button basic color="blue" style={{ marginTop: 25 }}>
+              <Link to="/contact">Contact Us Today</Link>
+            </Button>
           </Container>
-          <Button basic color="blue" style={{ marginTop: 25 }}>
-            <Link to="/contact">Contact Us Today</Link>
-          </Button>
         </Responsive>
         <Responsive as={Grid.Column} {...Responsive.onlyComputer}>
           <Image className="selfie" src={john} />
@@ -120,18 +122,42 @@ const Home = () => (
         <Responsive as={Grid.Column} {...Responsive.onlyMobile}>
           <Image className="selfie" src={john} />
         </Responsive>
+        <Responsive as={Grid} {...Responsive.onlyMobile}>
+          <Container textAlign="center" className="section">
+            <Header size="large">Our Promise To You</Header>
+            <Container>
+              Unlike conventional medicine, which focuses on attempting to treat disease once it occurs, the chiropractic care offered at ChiroFit Roseville in Roseville emphasizes the importance of improving your health in an effort to reduce the risk of pain and illness in the
+              first place. Given the option, most people would prefer to be healthy and avoid illness if possible, and chiropractic care can help those people achieve their health and wellness goals.
+            </Container>
+            <Button basic color="blue" style={{ marginTop: 25 }}>
+              <Link to="/contact">Contact Us Today</Link>
+            </Button>
+          </Container>
+        </Responsive>
       </Grid>
+    </div>
 
-      <Container textAlign="center">
-        <Header size="large">Our Promise To You</Header>
-        <p>
-          Unlike conventional medicine, which focuses on attempting to treat disease once it occurs, the chiropractic care offered at ChiroFit Roseville in Roseville emphasizes the importance of improving your health in an effort to reduce the risk of pain and illness in the
-          first place. Given the option, most people would prefer to be healthy and avoid illness if possible, and chiropractic care can help those people achieve their health and wellness goals.
-        </p>
-        <Button basic color="blue" style={{ marginTop: 25 }}>
-          <Link to="/contact">Contact Us Today</Link>
-        </Button>
-      </Container>
+    <div className="section selfies" style={{ paddingBottom: 0 }}>
+      <Grid columns={2}>
+        <Responsive as={Grid.Column} {...Responsive.onlyTablet}>
+          <Image className="selfie" src={josh} />
+        </Responsive>
+        <Responsive as={Grid.Column} {...Responsive.onlyTablet}>
+          <Image className="selfie" src={john} />
+        </Responsive>
+        <Responsive as={Grid} {...Responsive.onlyTablet}>
+          <Container textAlign="center" className="section">
+            <Header size="large">Our Promise To You</Header>
+            <Container>
+              Unlike conventional medicine, which focuses on attempting to treat disease once it occurs, the chiropractic care offered at ChiroFit Roseville in Roseville emphasizes the importance of improving your health in an effort to reduce the risk of pain and illness in the
+              first place. Given the option, most people would prefer to be healthy and avoid illness if possible, and chiropractic care can help those people achieve their health and wellness goals.
+            </Container>
+            <Button basic color="blue" style={{ marginTop: 25 }}>
+              <Link to="/contact">Contact Us Today</Link>
+            </Button>
+          </Container>
+        </Responsive>
+      </Grid>
     </div>
 
     <Container className="section">

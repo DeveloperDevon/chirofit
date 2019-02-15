@@ -1,3 +1,5 @@
+@import url(//cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css);
+
 p {
   line-height: 1.7em;
 }
@@ -69,6 +71,7 @@ h3 {
 
 #map-container {
   position: relative;
-  height: 200px;
+  height: 400px;
   width: 100%;
+  margin-bottom: 20px;
 }

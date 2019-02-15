@@ -145,7 +145,7 @@ const Home = () => (
         <Responsive as={Grid.Column} {...Responsive.onlyTablet}>
           <Image className="selfie" src={john} />
         </Responsive>
-        <Responsive as={Grid} {...Responsive.onlyTablet}>
+        <Responsive as={Container} {...Responsive.onlyTablet}>
           <Container textAlign="center" className="section">
             <Header size="large">Our Promise To You</Header>
             <Container>

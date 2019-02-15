@@ -40,7 +40,7 @@ export class MapContainer extends Component {
 }
 
 const MapRendered = GoogleApiWrapper({
-  apiKey: 'AIzaSyAK-_6vLcEEhc7uPFD-ejwp8pQyD3mhV74',
+  apiKey: process.env.GATSBY_GOOGLE_API_KEY,
 })(MapContainer)
 
 export default MapRendered

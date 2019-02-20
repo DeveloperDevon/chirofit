@@ -1,13 +1,13 @@
 import React from 'react'
-import { Segment, Form, Grid } from 'semantic-ui-react'
+import { Segment, Form, Grid, Button } from 'semantic-ui-react'
 
 const ContactForm = () => {
   return (
     <Segment>
-      {/* <form name= "contact" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
+      <form name= "contact2" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
       <input name= "name" placeholder="Your Name"type="text"/>
       <button>Send</button>
-      </form> */}
+      </form>
       <Form name="contact" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
 
         <Form.Input type="hidden" name="form-name" value="contact" />
@@ -28,9 +28,9 @@ const ContactForm = () => {
         <Form.TextArea name="message" label="Message" placeholder="Tell us more about you..." />
         <Grid>
           <Grid.Column textAlign="center">
-            <Form.Button fluid primary type="submit">
+            <Button fluid primary >
               Send Email
-            </Form.Button>
+            </Button>
           </Grid.Column>
         </Grid>
       </Form>

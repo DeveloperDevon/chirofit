@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import { Image, List, Container, Segment } from 'semantic-ui-react'
+import logo from '../../images/cfr_logo.png'
 
 const Header = () => (
   <div className="sticky-header">
@@ -27,7 +28,7 @@ const Header = () => (
         </Segment>
         <Segment>
           <Link to="/">
-            <Image floated="right" src="https://chirofitroseville.com/wp-content/uploads/2014/05/new_logo.png" size="small" />
+            <Image floated="right" src={logo} size="small" />
           </Link>
         </Segment>
       </Segment.Group>

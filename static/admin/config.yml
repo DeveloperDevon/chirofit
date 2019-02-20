@@ -12,4 +12,7 @@ collections:
     create: true # Allow users to create new documents in this collection
     slug: '{{year}}-{{slug}}'
     fields:
-      - { label: 'title', name: 'title', widget: 'string', required: true }
+      - { label: 'Title', name: 'title', widget: 'string', required: true }
+      - { label: 'Date', name: 'date', widget: 'date' }
+      - { label: 'Author', name: 'author', widget: 'string' }
+      - { label: 'Body', name: 'body', widget: 'markdown' }

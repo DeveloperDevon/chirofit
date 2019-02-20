@@ -4,10 +4,27 @@ import { Segment, Form, Grid, Button } from 'semantic-ui-react'
 const ContactForm = () => {
   return (
     <Segment>
-      {/* <form name= "contact2" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
+      <form name="contact" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
+        <input name="first-name" label="First name" placeholder="First name" />
+        <input name="last-name" label="Last name" placeholder="Last name" />
+        <input name="email" label="Email address" placeholder="Email Address" />
+        <input name="phone" label="Phone number" placeholder="Phone number" />
+
+        <textarea name="message" label="Message" placeholder="Tell us more about you..." />
+        <button>Send Email</button>
+      </form>
+    </Segment>
+  )
+}
+
+export default ContactForm
+
+{
+  /* <Segment>
+      <form name= "contact2" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
       <input name= "name" placeholder="Your Name"type="text"/>
       <button>Send</button>
-      </form> */}
+      </form>
       <Form name="contact" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
 
         <Form.Input type="hidden" name="form-name" value="contact" />
@@ -26,16 +43,9 @@ const ContactForm = () => {
         </Form.Group>
         <Form.Group inline />
         <Form.TextArea name="message" label="Message" placeholder="Tell us more about you..." />
-        <Grid>
-          <Grid.Column textAlign="center">
-            <Button fluid primary >
-              Send Email
-            </Button>
-          </Grid.Column>
-        </Grid>
+          <Form.Button fluid primary >
+            Send Email
+          </Form.Button>
       </Form>
-    </Segment>
-  )
+    </Segment>  */
 }
-
-export default ContactForm

@@ -6,10 +6,12 @@ import Layout from '../components/layout'
 import SEO from '../components/seo'
 import josh from '../images/josh.png'
 import john from '../images/john.png'
+// import ContactForm from './ContactForm.js'
 
 const Home = () => (
   <Layout>
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
+    {/* <ContactForm /> */}
 
     <div className="section even">
       <Container>

@@ -1,6 +1,6 @@
 ---
 path: '/{{slug}}'
-date: 02-20-2019
+date: 12-04-2014
 title: Bone Spurs
 author: Jon
 ---

@@ -1,17 +1,16 @@
 import React from 'react'
-import { Image, Container, Segment, Header, Grid, Icon, Card, Button, Form, Responsive } from 'semantic-ui-react'
+import { Image, Container, Segment, Header, Grid, Icon, Card, Button, Responsive } from 'semantic-ui-react'
 import Link from 'gatsby-link'
 
 import Layout from '../components/layout'
 import SEO from '../components/seo'
 import josh from '../images/josh.png'
-import john from '../images/john.png'
-import ContactForm from './ContactForm.js'
+import jon from '../images/jon.png'
+import ContactForm from './ContactForm'
 
 const Home = () => (
   <Layout>
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
-    {/* <ContactForm /> */}
 
     <div className="section even">
       <Container>
@@ -111,7 +110,7 @@ const Home = () => (
           </Container>
         </Responsive>
         <Responsive as={Grid.Column} {...Responsive.onlyComputer}>
-          <Image className="selfie" src={john} />
+          <Image className="selfie" src={jon} />
         </Responsive>
       </Grid>
     </div>
@@ -122,7 +121,7 @@ const Home = () => (
           <Image className="selfie" src={josh} />
         </Responsive>
         <Responsive as={Grid.Column} {...Responsive.onlyMobile}>
-          <Image className="selfie" src={john} />
+          <Image className="selfie" src={jon} />
         </Responsive>
         <Responsive as={Grid} {...Responsive.onlyMobile}>
           <Container textAlign="center" className="section">
@@ -145,7 +144,7 @@ const Home = () => (
           <Image className="selfie" src={josh} />
         </Responsive>
         <Responsive as={Grid.Column} {...Responsive.onlyTablet}>
-          <Image className="selfie" src={john} />
+          <Image className="selfie" src={jon} />
         </Responsive>
         <Responsive as={Container} {...Responsive.onlyTablet}>
           <Container textAlign="center" className="section">

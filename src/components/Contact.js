@@ -1,6 +1,6 @@
 import React from 'react'
 import Layout from '../components/layout'
-import { Header, Container, Segment, Grid, Form } from 'semantic-ui-react'
+import { Header, Container, Segment } from 'semantic-ui-react'
 import MapContainer from './map'
 import ContactForm from './ContactForm'
 

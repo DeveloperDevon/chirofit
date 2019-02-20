@@ -1,5 +1,4 @@
 import React from 'react'
-import { Segment, Form, Grid, Button } from 'semantic-ui-react'
 
 const ContactForm = () => {
   return (

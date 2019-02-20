@@ -12,7 +12,7 @@ collections:
     create: true # Allow users to create new documents in this collection
     slug: '{{year}}-{{day}}-{{month}}_{{slug}}'
     fields:
-      - { label: 'Path', name: 'path', widget: hidden, default: date }
+      - { label: 'Path', name: 'path', widget: hidden, default: '/{{slug}}' }
       - { label: 'Date', name: 'date', widget: 'date', format: 'MM-DD-YYYY' }
       - { label: 'Title', name: 'title', widget: 'string', required: true }
       - { label: 'Author', name: 'author', widget: 'string' }

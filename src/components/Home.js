@@ -6,7 +6,7 @@ import Layout from '../components/layout'
 import SEO from '../components/seo'
 import josh from '../images/josh.png'
 import john from '../images/john.png'
-// import ContactForm from './ContactForm.js'
+import ContactForm from './ContactForm.js'
 
 const Home = () => (
   <Layout>
@@ -168,7 +168,8 @@ const Home = () => (
           Ready to get Started?
         </Header>
       </Segment>
-      <Segment>
+      <ContactForm />
+      {/* <Segment>
         <Form>
           <Form.Group widths="equal">
             <Form.Input fluid label="First name" placeholder="First name" />
@@ -188,7 +189,7 @@ const Home = () => (
             </Grid.Column>
           </Grid>
         </Form>
-      </Segment>
+      </Segment> */}
     </Container>
   </Layout>
 )

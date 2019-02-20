@@ -2,6 +2,7 @@ import React from 'react'
 import Layout from '../components/layout'
 import { Header, Container, Segment, Grid, Form } from 'semantic-ui-react'
 import MapContainer from './map'
+import ContactForm from './ContactForm'
 
 const Contact = () => (
   <Layout>
@@ -17,23 +18,7 @@ const Contact = () => (
       </Segment>
 
       <Segment>
-        <Form>
-          <Form.Group widths="equal">
-            <Form.Input fluid label="First name" placeholder="First name" />
-            <Form.Input fluid label="Last name" placeholder="Last name" />
-          </Form.Group>
-          <Form.Group widths="equal">
-            <Form.Input fluid label="Email address" placeholder="Email Address" />
-            <Form.Input fluid label="Phone number" placeholder="Phone number" />
-          </Form.Group>
-          <Form.Group inline />
-          <Form.TextArea label="Message" placeholder="Tell us more about you..." />
-          <Grid>
-            <Grid.Column textAlign="center">
-              <Form.Button primary>Send Email</Form.Button>
-            </Grid.Column>
-          </Grid>
-        </Form>
+        <ContactForm />
       </Segment>
     </Container>
     <Container>

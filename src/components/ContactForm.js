@@ -3,49 +3,37 @@ import { Segment, Form, Grid, Button } from 'semantic-ui-react'
 
 const ContactForm = () => {
   return (
-    <Segment>
-      <form name="contact" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
-        <input name="first-name" label="First name" placeholder="First name" />
-        <input name="last-name" label="Last name" placeholder="Last name" />
-        <input name="email" label="Email address" placeholder="Email Address" />
-        <input name="phone" label="Phone number" placeholder="Phone number" />
+    <form className="ui form" name="contact" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
+      <input control="input" type="hidden" name="form-name" value="contact" />
+      <p hidden>
+        <label>
+          Don’t fill this out: <input name="bot-field" />
+        </label>
+      </p>
 
-        <textarea name="message" label="Message" placeholder="Tell us more about you..." />
-        <button>Send Email</button>
-      </form>
-    </Segment>
+      <div className="field">
+        <label>Name</label>
+        <input type="text" name="name" placeholder="Enter Name..." />
+      </div>
+      <div className="field">
+        <label>Email</label>
+        <input type="text" name="email" placeholder="Enter Email..." />
+      </div>
+      <div className="field">
+        <label>Phone Number</label>
+        <input type="text" name="phone" placeholder="Enter Phone Number..." />
+      </div>
+      <div className="field">
+        <label>Message (Optional)</label>
+        <textarea type="text" name="message" placeholder="Enter Optional Message..." />
+      </div>
+      <div className="field centered">
+        <button className="ui primary fluid button" type="submit">
+          Send Email
+        </button>
+      </div>
+    </form>
   )
 }
 
 export default ContactForm
-
-{
-  /* <Segment>
-      <form name= "contact2" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
-      <input name= "name" placeholder="Your Name"type="text"/>
-      <button>Send</button>
-      </form>
-      <Form name="contact" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
-
-        <Form.Input type="hidden" name="form-name" value="contact" />
-        <p hidden>
-          <label>
-            Don’t fill this out: <input name="bot-field" />
-          </label>
-        </p>
-        <Form.Group widths="equal">
-          <Form.Input name="first-name" fluid label="First name" placeholder="First name" />
-          <Form.Input name="last-name" fluid label="Last name" placeholder="Last name" />
-        </Form.Group>
-        <Form.Group widths="equal">
-          <Form.Input name="email" fluid label="Email address" placeholder="Email Address" />
-          <Form.Input name="phone" fluid label="Phone number" placeholder="Phone number" />
-        </Form.Group>
-        <Form.Group inline />
-        <Form.TextArea name="message" label="Message" placeholder="Tell us more about you..." />
-          <Form.Button fluid primary >
-            Send Email
-          </Form.Button>
-      </Form>
-    </Segment>  */
-}

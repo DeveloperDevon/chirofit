@@ -168,28 +168,9 @@ const Home = () => (
           Ready to get Started?
         </Header>
       </Segment>
-      <ContactForm />
-      {/* <Segment>
-        <Form>
-          <Form.Group widths="equal">
-            <Form.Input fluid label="First name" placeholder="First name" />
-            <Form.Input fluid label="Last name" placeholder="Last name" />
-          </Form.Group>
-          <Form.Group widths="equal">
-            <Form.Input fluid label="Email address" placeholder="Email Address" />
-            <Form.Input fluid label="Phone number" placeholder="Phone number" />
-          </Form.Group>
-          <Form.Group inline />
-          <Form.TextArea label="Message" placeholder="Tell us more about you..." />
-          <Grid>
-            <Grid.Column textAlign="center">
-              <Form.Button fluid primary>
-                Send Email
-              </Form.Button>
-            </Grid.Column>
-          </Grid>
-        </Form>
-      </Segment> */}
+      <Segment>
+        <ContactForm />
+      </Segment>
     </Container>
   </Layout>
 )

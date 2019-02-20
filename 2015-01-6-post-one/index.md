@@ -1,4 +1,4 @@
----
+<!-- ---
 path: '/post-one'
 date: '2015-01-13'
 title: 'No Pain? Why go to a Chiropractor?'
@@ -40,4 +40,4 @@ Check these after each adjustment, weekly or monthly.
 - Increased energy level
 - Overall just feel better!
 
-So if you are interested in any or all of these health benefits chiropractic care is an excellent choice.
+So if you are interested in any or all of these health benefits chiropractic care is an excellent choice. -->

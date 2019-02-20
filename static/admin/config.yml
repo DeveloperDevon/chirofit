@@ -8,11 +8,12 @@ public_folder: '/blog'
 collections:
   - name: 'blog' # Used in routes, e.g., /admin/collections/blog
     label: 'Blog' # Used in the UI
-    folder: 'src/blogs' # The path to the folder where the documents are stored
+    folder: 'src/pages/blogs' # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
-    slug: '{{month}}-{{day}}-{{year}}_{{slug}}'
+    slug: '{{year}}-{{day}}-{{month}}_{{slug}}'
     fields:
+      - { label: 'Path', name: 'path', widget: hidden, default: date }
+      - { label: 'Date', name: 'date', widget: 'date', format: 'MM-DD-YYYY' }
       - { label: 'Title', name: 'title', widget: 'string', required: true }
-      - { label: 'Date', name: 'date', widget: 'date' }
       - { label: 'Author', name: 'author', widget: 'string' }
       - { label: 'Body', name: 'body', widget: 'markdown' }

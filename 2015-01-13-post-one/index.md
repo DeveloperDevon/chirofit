@@ -1,4 +1,4 @@
----
+<!-- ---
 path: '/post-one'
 date: '2015-01-6'
 title: 'New Year’s Resolution?'
@@ -30,4 +30,4 @@ Fad diets typically are impossible, so we quickly return to our usual bad eating
    As with diet we have to make changes we can stick with. Start slow!
 7. Time. We are all so busy that we always feel there is no time, so exercise is left out. Did you know that there are 1440 minutes in a day? That’s right and a beginning exercise program should be maybe
    60 minutes per day, 3-4 times per week. So what will you do with the other 1380 minutes a day?
-8. Strengthen your muscles. Most people when they try to lose weight only diet. If they exercise they often focus on aerobic exercise and do not strengthen muscles. Big mistake! Strengthening your muscles requires fuel to help the muscle build. This process of muscle building will actually help you burn fat, even while you sleep. Just a few minutes a day, push-ups, sit-ups etc will do the job.
+8. Strengthen your muscles. Most people when they try to lose weight only diet. If they exercise they often focus on aerobic exercise and do not strengthen muscles. Big mistake! Strengthening your muscles requires fuel to help the muscle build. This process of muscle building will actually help you burn fat, even while you sleep. Just a few minutes a day, push-ups, sit-ups etc will do the job. -->

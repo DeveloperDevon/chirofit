@@ -80,7 +80,7 @@ const Home = () => (
               <Card.Content>
                 <Card.Description>
                   "I continue to see Dr. Reichardt as needed for maintenance adjustments as my issue is chronic with flare-ups from workouts. He’s very thorough, knowledgeable, conscience and attentive. I appreciate that he’s consistently on time for my appointments, never feel
-                  rushed, always asks about new issues, how last adjustment held out, etc. In addition, he works hard to coordinate with my insurance which is a challenge. Without question, I recommend Dr. Reichardt especially for those who are athletes or fitness minded.""
+                  rushed, always asks about new issues, how last adjustment held out, etc. In addition, he works hard to coordinate with my insurance which is a challenge. Without question, I recommend Dr. Reichardt especially for those who are athletes or fitness minded."
                 </Card.Description>
               </Card.Content>
               <Card.Content extra textAlign="right">

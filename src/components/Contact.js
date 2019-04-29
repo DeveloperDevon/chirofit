@@ -14,7 +14,7 @@ const Contact = () => (
     <Container style={{ margin: '25px 0 25px 0' }}>
       <Segment textAlign="center">
         <Header size="medium">Sign up using the form or call to schedule your appointment today</Header>
-        <p>ChiroFit Roseville | (916) 783-2348 | 1050 Opportunity Dr # 150 | Roseville, CA 95678</p>
+        <p>ChiroFit Roseville | (916) 783-2348 | 203 Grove St. | Roseville, CA 95678</p>
       </Segment>
 
       <Segment>

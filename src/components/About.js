@@ -1,8 +1,11 @@
 import React from 'react'
 import Layout from './layout'
 import { Header, Container, Image, Grid, Segment } from 'semantic-ui-react'
-import room1 from '../images/room1.jpg'
-import room2 from '../images/room2.jpg'
+
+import outside from '../images/outside.jpg'
+import frontDoor from '../images/front_door.jpg'
+import key from '../images/key.jpg'
+import sign from '../images/sign.jpg'
 
 const About = () => (
   <Layout>
@@ -38,11 +41,26 @@ const About = () => (
         <Grid columns={2} stackable textAlign="center">
           <Grid.Row verticalAlign="middle">
             <Grid.Column>
-              <Image src={room1} />
+              <Image src={outside} />
             </Grid.Column>
 
             <Grid.Column>
-              <Image src={room2} />
+              <Image src={frontDoor} />
+            </Grid.Column>
+          </Grid.Row>
+        </Grid>
+      </Segment>
+    </Container>
+    <Container>
+      <Segment placeholder>
+        <Grid columns={2} stackable textAlign="center">
+          <Grid.Row verticalAlign="middle">
+            <Grid.Column>
+              <Image src={key} />
+            </Grid.Column>
+
+            <Grid.Column>
+              <Image src={sign} />
             </Grid.Column>
           </Grid.Row>
         </Grid>

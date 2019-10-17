@@ -32,7 +32,7 @@ const Home = () => (
     <div className="section odd">
       <Container>
         <Header size="large" textAlign="center">
-          What Makes Us Different
+          What Makes Us Different?
         </Header>
 
         <Grid columns={3} textAlign="center">

@@ -5,6 +5,9 @@ module.exports = {
     author: `Developer Devon`,
   },
   plugins: [
+    {
+      resolve: `gatsby-transformer-sharp`
+    },
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-catch-links`,
     {

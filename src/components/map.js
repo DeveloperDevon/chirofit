@@ -20,6 +20,10 @@ export class MapContainer extends Component {
             lat: 38.7449948,
             lng: -121.307061,
           }}
+          center={{
+            lat: 38.7449948,
+            lng: -121.307061,
+          }}
         >
           <Marker
             title="Chirofit Roseville"

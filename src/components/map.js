@@ -17,19 +17,19 @@ export class MapContainer extends Component {
           zoom={14}
           style={mapStyles}
           intialCenter={{
-            lat: 38.7449948,
-            lng: -121.307061,
+            lat: 38.752929,
+            lng: -121.287187,
           }}
           center={{
-            lat: 38.7449948,
-            lng: -121.307061,
+            lat: 38.752929,
+            lng: -121.287187,
           }}
         >
           <Marker
             title="Chirofit Roseville"
             position={{
-              lat: 38.7449948,
-              lng: -121.307061,
+              lat: 38.752929,
+              lng: -121.287187,
             }}
           />
           <InfoWindow visible={true}>

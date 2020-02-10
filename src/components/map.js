@@ -16,7 +16,6 @@ export class MapContainer extends Component {
           style={mapStyles}
           intialCenter={{ lat: 38.752929, lng: -121.287187 }}
           center={{ lat: 38.752929, lng: -121.287187 }}
-          {/* zoom={14} */}
           onClick={this.onMapClicked}
         >
           <Marker

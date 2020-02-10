@@ -13,24 +13,15 @@ export class MapContainer extends Component {
       <div id="map-container">
         <Map
           google={this.props.google}
-          onClick={this.onMapClicked}
-          zoom={14}
           style={mapStyles}
-          intialCenter={{
-            lat: 38.752929,
-            lng: -121.287187,
-          }}
-          center={{
-            lat: 38.752929,
-            lng: -121.287187,
-          }}
+          intialCenter={{ lat: 38.752929, lng: -121.287187 }}
+          center={{ lat: 38.752929, lng: -121.287187 }}
+          {/* zoom={14} */}
+          onClick={this.onMapClicked}
         >
           <Marker
             title="Chirofit Roseville"
-            position={{
-              lat: 38.752929,
-              lng: -121.287187,
-            }}
+            position={{ lat: 38.752929, lng: -121.287187 }}
           />
           <InfoWindow visible={true}>
             <div>
